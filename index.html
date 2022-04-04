@@ -5,7 +5,6 @@
 <!--[if (gt IE 7)|!(IE)]><!-->
 <html lang="ar" dir="rtl">
 <!--<![endif]-->
-
 <head>
 	<meta charset="utf-8">
 	<title> مصري شوب | التوثيق</title>
@@ -13,7 +12,6 @@
 	<link rel="stylesheet" href="doc/assets/css/documenter_style.css" media="all">
 	<link rel="stylesheet" href="doc/assets/bootstrap/css/bootstrap.min.css">
 </head>
-
 <body class="documenter-project-mp-price" dir="rtl">
 	<style>
 		img {
@@ -27,12 +25,14 @@
 	<div id="documenter_sidebar">
 		<h4 class="title">مصري شوب</h4>
 		<ul id="documenter_nav">
-			<li><a class="current" href="#introd"> مقدمة </a></li>
+			<li><a class="current" href="#introd">مقدمة</a></li>
+			<li><a href="#upload_at_hosting">الرفع علي الأستضافة</a></li>
 			<li><a href="#dashboard">لوحة التحكم</a></li>
+			<li><a href="#images_size">مقاس الصور</a></li>
 			<li><a href="#products">المنتجات</a></li>
 			<li><a href="#categories">الأقسام</a></li>
 			<li><a href="#product_attribute">خواص المنتج</a></li>
-			<li><a href="#coupon_setting">أعدادات الكوبونات</a></li>
+			<!-- <li><a href="#coupon_setting">أعدادات الكوبونات</a></li> -->
 			<li><a href="#manage_home_categories">أدارة أقسام الرئيسية</a></li>
 			<li><a href="#manage_home_slider">أدارة سلايدر الرئيسية</a></li>
 			<li><a href="#sale_setting">أعدادات الخصم</a></li>
@@ -50,7 +50,7 @@
 				<h1>
 					والصلاة والسلام علي أشرف المرسلين سيدنا محمد عليه أفضل الصلاة والسلام
 					<hr>
-					يتناول هذا الملف شرح لوحة المدير فقط
+					يتناول هذا الملف شرح لوحة المدير  والرفع علي الأستضافة فقط
 				</h1>
 			</div>
 			<img src="doc/assets/images/main.png" alt="masry_shop_image">
@@ -60,7 +60,7 @@
 			<h4 class="title">لوحة التحكم</h4>
 			<p class="lead text-center">
 				هنا يتم عرض بيانات الطلبات
-				[ المبيعات اليومية - أرباح اليوم - أجمالي المبيعات ]
+				[ المبيعات اليومية - أرباح اليوم - أجمالي المبيعات - أجمالي الأرباح ]
 				من الزر تفاصيل تستطيع فتح صفحة تفاصيل الطلب
 			</p>
 			<hr>
@@ -78,6 +78,139 @@
 			<p class="lead text-center">هنا تستطيع تغيير حالة الطلب كما تريد سواء الغاؤه او تم التوصيل </p>
 			<img src="doc/assets/images/dashboard/order_status.PNG" alt="masry_shop_image">
 			<hr>
+		</section>
+		<section id="upload_at_hosting">
+			<h4 class="title">الرفع علي الأستضافة</h4>
+			<p class="lead text-center">
+				لن يتم التطرق الي التفاصيل الفنية أو مواصفات الأستضافة 
+				تستطيع معرفة هذا في التوثيق البرمجي للاسكربت
+				<hr>
+				<p class="lead text-center">
+				بكل بساطة بعد شراءك للمنتج  عبر الموقعين 
+				التاليين
+				<p>
+				<hr>
+				<p class="lead text-center"><a href="https://scriptaty.com/">سكربتاتي</a></p>
+				<hr>
+				<p class="lead text-center"><a href="https://picalica.com/">بيكاليكا</a></p>
+				<p class="lead text-center">
+					سوف تجد ملف مضغوط بصيغة zip 
+					بداخلة محتوي أو ملفات الموقع 
+					كل ما عليك فعله في 3 خطوات ليعمل الموقع معك
+				</p>
+				<h4 class="title">الخطوة الأولي رفع الملفات</h4>
+				<p class="lead text-center">
+					 اي موقع علي حسب ما اعلم سوف يكون بداخل مجلد <span style="color:crimson">public_html</span> 
+					 لذلك عليك فقط رفع الملف المضغوط علي السيرفر 
+				</p>
+				<img src="doc/assets/images/host-1.PNG" alt="masry_shop_image">
+				<img src="doc/assets/images/host-2.PNG" alt="masry_shop_image">
+				<hr>
+				<p class="lead text-center"> بعد أكتمال رفع الملف  بداخل المجلد قم بفك الضغط عن المجلد</p>
+				<img src="doc/assets/images/host-3.PNG" alt="masry_shop_image">
+				<p class="lead text-center">سوف يكون شكل الملفات هكذا </p>
+				<img src="doc/assets/images/host-4.PNG" alt="masry_shop_image">
+				<p class="lead text-center"> بعد ذلك عليك نقل الملفات  الي المجلد الرئيسيى هكذا</p>
+				<img src="doc/assets/images/host-5.PNG" alt="masry_shop_image">
+				<img src="doc/assets/images/host-6.PNG" alt="masry_shop_image">
+				<img src="doc/assets/images/host-7.PNG" alt="masry_shop_image">
+				<p class="lead text-center">بعد ذلك قم بحذف المجلد والملف المضغوط </p>
+				<img src="doc/assets/images/host-8.PNG" alt="masry_shop_image">
+				<h4 class="title">الخطوة الثانية قاعدة البيانات</h4>
+				<p class="lead text-center">
+					 اذهب الي لوحة التحكم الخاصه بالاستضافه واختر قواعد البيانات ثم قم بانشاء قاعدة بيانات جديدة
+				</p>
+				<img src="doc/assets/images/db-1.PNG" alt="masry_shop_image">
+				<img src="doc/assets/images/db-2.PNG" alt="masry_shop_image">
+				<p class="lead text-center">
+					أرجع مرة أخري الي ملفات الموقع ثم  قم بفتح ملف يحمل الامتداد .env
+				</p>
+				<img src="doc/assets/images/db-6.PNG" alt="masry_shop_image">
+				<p class="lead text-center">
+				قم بكتابة بيانات الاتصال بقاعدة البيانات [ اسم المستخدمDB_USERNAME - كلمة المرور DB_PASSWORD - أسم قاعدة البيانات DB_DATABASE ]
+				وقم بحفظها بالنقر علي زر حفظ
+				</p>
+				<img src="doc/assets/images/db-7.PNG" alt="masry_shop_image">
+				<p class="lead text-center">
+					يجب أن تغير صلاحيات المستخدم  الي اعطاءها كل الصلاحيات
+					</p>
+					<img src="doc/assets/images/db-4.PNG" alt="masry_shop_image">
+				<p class="lead text-center">
+				بعد ذلك توجة علي الي لوحة تحكم الأستضافة 
+				ثم قم بالدخول الي php my admin
+				</p>
+				<img src="doc/assets/images/db-8.PNG" alt="masry_shop_image">
+				<p class="lead text-center">
+					قم بأختيار قاعدة البيانات ثم أضغط أستيراد 
+					</p>
+				<img src="doc/assets/images/db-9.PNG" alt="masry_shop_image">
+				<p class="lead text-center">
+					 قم بأختيار ملف قاعدة البيانات  وأضغط أستيراد
+					</p>
+				<img src="doc/assets/images/db-10.PNG" alt="masry_shop_image">
+				<p class="lead text-center">
+					بعد انتهاء الاستيراد سوف تظهر لك رساله بنجاح العملية وبنية قاعدة البيانات 
+					</p>
+				<img src="doc/assets/images/db-11.PNG" alt="masry_shop_image">
+				
+				<h4 class="title">الخطوة الثالثة اعدادات البريدالالكتروني</h4>
+				<p class="lead text-center">
+					أخيرا حتي يتم أرسال بريد الكتروني للعميل الذي يقوم بشراء اي منتج من المتجر 
+					يجب ضبط اعدادات الاتصال بالبريد بداخل ملف .env
+					البيانات المطلوبة هي كالتالي في حال كنت تريد البدء ببريد الاستضافه وليس 
+					gmail
+				</p>
+				<pre>
+					MAIL_MAILER=smtp//البروتوكول
+					MAIL_HOST=smtp.googlemail.com //مضيف البريد سواء كان جوجل أو غيرة
+					MAIL_PORT=456//المنفذ
+					MAIL_USERNAME=أسم المستخدم
+					MAIL_PASSWORD=كلمة المرور
+					MAIL_ENCRYPTION=ssl//التشفير
+					MAIL_FROM_ADDRESS=null//عنوان بريد المرسل
+					
+				</pre>
+				<p class="lead text-center">
+					هذه الأعدادات موجوده داخل أعدادات التكوين الخاصة ببريدك الألكتروني بداخل الاستضافه
+				</p>
+				<img src="doc/assets/images/mail-1.PNG" alt="masry_shop_image">
+			</p>
+		</section>
+		<section id="images_size">
+			<h4 class="title">مقاس الصور</h4>
+			<p class="lead text-center">
+				مقاس الصور الموصي به رجاء الألتزام به حتي تحصل علي أفضل نتيجة 
+			</p>
+			<hr>
+			<h4 class="text-center">شعار المتجر</h4>
+			<p class="lead text-center">
+				الحجم الموصي به لصورة شعار المتجر هو 215 * 52  بيكسل طول في عرض 
+			</p>
+			<hr>
+			<h4 class="text-center">الصور المتحركة في الرئيسية</h4>
+			<p class="lead text-center">
+				الحجم الموصي به لصورة المنتج هو 1170 * 500  بيكسل طول في عرض 
+			</p>
+			<hr>
+			<h4 class="text-center">البنرين أسفل الصور المتحركة </h4>
+			<p class="lead text-center">
+				الحجم الموصي به لصورة المنتج هو 580  * 190 بيكسل طول في عرض 
+			</p>
+			<hr>
+			<h4 class="text-center">بنرات المنتجات  بالأقسام والمنتجات في الخصم</h4>
+			<p class="lead text-center">
+				الحجم الموصي به لصورة المنتج هو 1170 * 800 بيكسل طول في عرض 
+			</p>
+			<hr>
+			<h4 class="text-center">صورة بانر المتجر</h4>
+			<p class="lead text-center">
+				الحجم الموصي به لصورة المنتج هو 870 * 272 بيكسل طول في عرض 
+			</p>
+			<hr>
+			<h4 class="text-center">صورة المنتج</h4>
+			<p class="lead text-center">
+				الحجم الموصي به لصورة المنتج هو 800 * 800 بيكسل طول في عرض 
+			</p>
 		</section>
 		<section id="products">
 			<h4 class="title">المنتجات</h4>
@@ -122,7 +255,7 @@
 			<img src="doc/assets/images/atribute/1.PNG" alt="masry_shop_image">
 			<img src="doc/assets/images/atribute/3.PNG" alt="masry_shop_image">
 		</section>
-		<section id="coupon_setting">
+		<!-- <section id="coupon_setting">
 			<h4 class="title">الكوبونات</h4>
 			<p class="lead text-center">
 				هنا تستطيع أضافة وحذف وتعديل الكوبونات كما تريد
@@ -132,7 +265,7 @@
 				الحقول المطلوبة فقط هي كود الكوبون وقيمه الكوبون وقيمه سله الممشتريات وتاريخ الأنتهاء
 			</p>
 			<img src="doc/assets/images/coupon/cop-1.PNG" alt="masry_shop_image">
-		</section>
+		</section> -->
 		<section id="manage_home_categories">
 			<h4 class="title">أقسام الرئيسية</h4>
 			<p class="lead text-center">
